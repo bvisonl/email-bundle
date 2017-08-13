@@ -1,0 +1,4 @@
+services:
+     bvisonl.mailer:
+          class: Bvisonl\EmailBundle\Service\Mailer
+          arguments: ["@service_container", "@templating"]
